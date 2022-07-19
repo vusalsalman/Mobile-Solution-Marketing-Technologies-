@@ -1,0 +1,402 @@
+
+
+/* Reset CSS START */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  overflow-x:hidden ;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a:hover 
+{
+	text-decoration: none !important;
+}
+.container-fluid
+{
+	padding: 0px ;
+	margin: 0px ;
+}
+.row
+{
+	padding: 0px ;
+	margin: 0px ;
+}
+/* Reset CSS  END*/
+
+
+
+section
+{
+	padding: 0px 80px !important;
+}
+
+@media only screen  and (max-width:768px)
+{
+	section
+{
+	padding: 24px 0px;
+}
+}
+
+/*? Navigation and header menu section START */
+nav
+{
+	width: 100%;
+	height: 60px;
+	background-color: #1D192B;
+	display: flex;
+	align-items: center;
+	padding: 0px 150px;
+}
+
+nav .nav-logo img 
+{
+	width:auto;
+	height: 45px;
+}
+
+nav ul
+{
+	display: flex;
+
+}
+
+nav .nav-lest-side a 
+{
+	color: #FFFBFE;
+	margin-left: 50px;
+  width: auto;
+  height: 45px;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+nav .nav-lest-side a:hover
+{
+  color: #120f1a;
+  background-color: #EADDFF;
+
+}
+
+.dropdown-toggle
+{
+	min-width: 5rem;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.dropdown-menu
+{
+	min-width: 5rem;
+}
+
+.dropdown-item
+{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+
+.sign
+{
+	position: absolute;
+	right: 10rem;
+}
+.sign li 
+{
+	margin-left: 24px;
+}
+.log-in
+{
+	width: 140px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #120f1a;
+	box-shadow: 2px -1px 5px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+  font-weight: 600;
+	cursor: pointer;
+  transition: 400ms ease-in-out 
+
+}
+
+
+.log-in:hover
+{
+  background-color: #EADDFF;
+}
+.log-in:hover a 
+{
+  color: #120f1a;
+}
+
+.log-in a 
+{
+	color: #FFFBFE;
+	padding: 0px;
+	margin: 0px;
+}
+.sign-up
+{
+	width: 140px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #EADDFF;
+	box-shadow: 2px -1px 5px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	cursor: pointer;
+  font-weight: 500;
+  transition: 500ms ease-in-out ;
+}
+
+.sign-up:hover
+{
+  background-color: #120f1a;
+}
+.sign-up:hover a 
+{
+  color: #EADDFF;
+}
+
+.sign-up a 
+{
+	color: #21005D;
+	padding: 0px;
+	margin: 0px;
+  box-shadow:  rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.sign-up a 
+{
+	color: #21005D;
+	font-weight: 600;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*? Navigation and header menu section END */
+
+
+/*? Container (slider) CSS START */
+
+
+.slider
+{
+  width: 100vw;
+  height: auto;
+  padding: 0px !important;
+  margin: 0px;
+  position: relative;
+
+}
+.owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 890px;
+}
+
+.slide-progress {
+	width: 0;
+	max-width: 100%;
+	height: 7px;
+	background: #1D192B;
+
+}
+
+.owl-dots
+{
+  /* display: none; */
+}
+
+
+.owl-demo
+{
+	position: relative;
+}
+.owl-dots
+{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	bottom: 0px;
+	width: 100vw;
+	background: rgb(18,15,26);
+	background: linear-gradient(180deg, rgba(18,15,26,0) 0%, rgba(18,15,26,0.3) 100%);
+	padding: 20px 0px;
+
+}
+.owl-dot 
+{
+	width: 250px !important;
+	height: 125px !important;
+	margin-left: 40px;
+	background: url(/img/Controller-2.png);
+	background-size: cover;
+	border-radius: 20px;
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	
+	
+}
+
+.owl-dots :nth-child(2)
+{
+	background: none ;
+	background: url(/img/Controller-1.png);
+	background-size: cover;
+}
+.owl-dots :nth-child(3)
+{
+	background: none ;
+	background: url(/img/Controller-3.png);
+	background-size: cover;
+}
+.owl-dots :nth-child(4)
+{
+	background: none ;
+	background: url(/img/Controller-2.png);
+	background-size: cover;
+}
+.owl-dots :nth-child(5)
+{
+	background: none ;
+	background: url(/img/Controller-2.png);
+	background-size: cover;
+}
+
+.owl-dot.active span
+{
+	background: none !important;
+	background-color: rgba(0, 0, 0, 0.45) !important; 
+	z-index: 999;
+	border-radius: 20px !important;
+	margin: 0px !important;
+}
+
+.owl-dot span
+{
+	width: 250px !important;
+	height: 125px !important;
+	background-color: transparent !important;
+}
+/*? Container (slider) CSS END */
+
+
+
+/*? Sms-services style START */
+
+.sms-services 
+{
+	margin-top: 56px;
+
+}
+.sms-services .row
+{
+	display: flex;
+	justify-content: center;
+
+}
+
+.bulk-sms 
+{
+	max-width: 579px;
+	height: 777px;
+	
+}
+.profile-sms, .two-way-sms
+{
+	height: 373px;
+	
+}
+.sms-notification
+{
+	height: 373px;
+	
+	margin-top: 31px;
+}
+.services-body
+{
+	padding: 40px;
+	border: 1px solid #120f1a;
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+/*? Sms-services style END */
+
+
+/*? GPS-services style START */
+.GPS 
+{
+	padding: 0px !important;
+	margin-top: 56px;
+}
+.GPS-header 
+{
+	padding:  0px 50px;
+}
+.GPS-header img
+{
+	height: 125px;
+	width: auto;
+}
+.GPS-text
+{
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 35px;
+	padding:  0px 80px;
+}
+.GPS-photo img
+{
+	margin-top: 24px;
+	width: 100vw;
+}
+
+/*? GPS-services style END */
